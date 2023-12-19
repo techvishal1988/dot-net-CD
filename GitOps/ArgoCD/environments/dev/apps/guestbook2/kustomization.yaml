@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+patchesStrategicMerge:
+- deployment.yaml
+resources:
+- ../../../../base/apps/guestbook2/
+images:
+- name: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-ecr
+  newTag: 8ebe272c6e64122555b28e0131b12be0871a8ff4
