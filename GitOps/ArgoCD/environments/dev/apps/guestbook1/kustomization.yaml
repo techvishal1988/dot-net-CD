@@ -3,7 +3,7 @@ kind: Kustomization
 patchesStrategicMerge:
 - deployment.yaml
 resources:
-- ../../../../base/apps/guestbook1/
+- ../../../../base/apps/organization-worker/
 images:
 - name: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-worker
   newTag: 566e22cdc248b8da7a49fc8f6c7774bf1bbe5032
