@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook1-ui
+  name: organization-worker
 spec:
   replicas: 1
   revisionHistoryLimit: 1
   selector:
     matchLabels:
-      app: guestbook1-ui
+      app: organization-worker
   template:
     metadata:
       labels:
-        app: guestbook1-ui
+        app: organization-worker
     spec:
       containers:
       - image: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-worker:566e22cdc248b8da7a49fc8f6c7774bf1bbe5032
-        name: guestbook1-ui
+        name: organization-worker
         ports:
         - containerPort: 10600
