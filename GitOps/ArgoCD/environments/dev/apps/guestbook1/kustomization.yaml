@@ -5,5 +5,5 @@ patchesStrategicMerge:
 resources:
 - ../../../../base/apps/guestbook1/
 images:
-- name: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-ecr
-  newTag: 8ebe272c6e64122555b28e0131b12be0871a8ff4
+- name: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-worker
+  newTag: 2a3f44d89facc8c31b44ebaf7701027995aac9f6
