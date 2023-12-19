@@ -14,7 +14,7 @@ spec:
         app: guestbook2-ui
     spec:
       containers:
-      - image: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-api:ec9106ddfe3cfd4d68a347d1eb7dd8a23d70cb82
+      - image: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-api:566e22cdc248b8da7a49fc8f6c7774bf1bbe5032
         name: guestbook2-ui
         ports:
-        - containerPort: 80
+        - containerPort: 10400
