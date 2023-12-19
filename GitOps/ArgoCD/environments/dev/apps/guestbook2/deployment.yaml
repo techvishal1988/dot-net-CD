@@ -17,4 +17,4 @@ spec:
       - image: 485229547579.dkr.ecr.us-west-2.amazonaws.com/demo-api:6c62aa703d31acb70db02b9b4690af70eaebb577
         name: guestbook2-ui
         ports:
-        - containerPort: 8080
+        - containerPort: 80
